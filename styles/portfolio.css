@@ -2,8 +2,8 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
-body{
-    flex-wrap: wrap;
+body {
+  flex-wrap: wrap;
 }
 .primaryColor {
   color: #fd6e0a;
@@ -38,7 +38,7 @@ body{
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 nav ul li {
   list-style: none;
@@ -152,48 +152,176 @@ main {
 }
 
 /*What i do section */
-.whatIDo{
-    margin-top: 200px;
+.whatIDo {
+  margin-top: 200px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: #181818;
+}
+.whatIDo h3 {
+  margin-bottom: 50px;
+}
+.whatIDoDescription {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #757575;
+  margin: 30px;
+}
+.skills-wrapper {
+  display: flex;
+  gap: 24px;
+}
+.slikTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.skillDescription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+.skill {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+  width: 300px;
+}
+
+/* resume style */
+.resumeContant {
+    display: flex;
+    justify-content: space-evenly;
+}
+.resumeItem {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #474747;
+}
+.education {
+    margin-top: 100px;
     text-align: center;
     font-weight: 700;
-font-size: 35px;
-line-height: 48px;
-color: #181818;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 100px;
+  }
 
-}
-.whatIDo h3{
-margin-bottom: 50px;
-}
-.whatIDoDescription{
-    font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-text-align: center;
-color: #757575;
-margin: 30px;
-}
-.skills-wrapper{
-    display: flex;
-    gap: 24px;
-}
-.slikTitle{
+  .resumeSingleItem{
+    width: 511px;
+height: 175px;
+margin-top: 30px;
+border-bottom: 1px solid #D1D1D1;
+
+  }
+  .resumeSingleItem:last-child{
+    border-bottom : none; 
+  }
+  .title{
     font-weight: 700;
+font-size: 25px;
+line-height: 34px;
+color: #474747;
+  }
+
+  .resumeSubTitle{
+    font-weight: 600;
 font-size: 20px;
 line-height: 27px;
-text-align: center;
-margin: 30px 0px;
-}
+color: #757575;
+margin-top: 20px;
+  }
 
-.skillDescription{
+  .ResumeDescription{
     font-weight: 400;
 font-size: 16px;
 line-height: 28px;
 color: #757575;
-}
-.skill{
+width: 511px;
+height: 84px;
+margin-bottom: 30px;
+  }
+
+
+  section.btnsection{
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  /* Footer section */
+  .footer{
+
+    background: #FFF8F3;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+  .letsConnect h2{
+    font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+text-align: center;
+color: #181818;
+margin-top: 130px;
+  }
+  .letsConnect p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #474747;
+  }
+  .msgMe h2{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px; 
+ 
+    color: #181818;
+    margin-top: 130px;
+  }
+  .footerwrap{
+    margin: 0 200px;
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  .Input{
+    display: block;
+  padding: 10px 30px;
+background: #FFFFFF;
+border-radius: 5px;
+border: none;
+margin-top: 20px;
+margin-bottom: 20px;
+  }
+  .footerDiscription{
+    width: 562px;
+height: 56px;
+left: 230px;
+top: 3674px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+
+
+color: #474747;
+
+  }
+  #tAria{
     background: #FFFFFF;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    padding: 30px;
-    width: 300px;
-}
+    border: none;
+    display: block;
+  }
